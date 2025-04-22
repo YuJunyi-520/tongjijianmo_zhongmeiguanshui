@@ -1,0 +1,25 @@
+这个文件是Rmd文档中引用的analysis_results.rds的占位符。
+
+如果要实际运行R Markdown文档，请先执行code/output/create_simulation_results.R脚本
+生成真实的分析结果数据。
+
+数据结构说明：
+- tariff_analysis：关税分析结果
+  - trade_data：贸易数据
+  - period_stats：各时期统计
+  - trade_plot：贸易趋势图
+
+- sentiment_analysis：情感分析结果
+  - sentiment_data：情感数据
+  - event_analysis：事件分析
+  - sentiment_plot：情感趋势图
+
+- regional_analysis：区域分析结果
+  - regional_data：区域数据
+  - regional_plot：区域GDP增长图
+  - model_coef：回归模型系数
+
+- strategic_analysis：战略资源分析
+  - resources_data：资源数据
+  - rare_earth_periods：稀土各时期数据
+  - resources_plot：资源依赖图 
